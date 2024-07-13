@@ -1,0 +1,5 @@
+modulna HelloModule
+  nyieun hello_keun
+    deleu("Hello, World!")
+  geus
+geus
