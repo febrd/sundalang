@@ -1,4 +1,6 @@
-### Fun Language for Exploring Sundanese Language Based on Elixir with DSL Concept### Sundalang Installation Guide with Validation
+### Fun Language for Exploring Sundanese Language Based on Elixir with DSL Concept
+<hr>
+### Sundalang Installation Guide with Validation
 
 #### Initial Steps
 
