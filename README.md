@@ -26,11 +26,11 @@
 ##### For Linux (bash and zsh)
 
 ```bash
-┌──(install@Sundalang)-[~/project/sundalang]
+┌──(install@Sundalang)-[~/sundalang]
 └─$ cd INSTALLATIONS
-┌──(install@Sundalang)-[~/project/sundalang/INSTALLATIONS]
-└─$ chmod +x sundalang_linux_mac.sh.sh
-┌──(install@Sundalang)-[~/project/sundalang/INSTALLATIONS]
+┌──(install@Sundalang)-[~/sundalang/INSTALLATIONS]
+└─$ chmod +x sundalang_linux_mac.sh
+┌──(install@Sundalang)-[~/sundalang/INSTALLATIONS]
 └─$ ./sundalang_linux_mac.sh
 ```
 
@@ -59,7 +59,7 @@ After installation, verify Sundalang functionality by following these steps:
    Run `sunda` command to display available commands:
 
    ```bash
-   ┌──(install@Sundalang)-[~/project/sundalang]
+   ┌──(install@Sundalang)-[~/sundalang]
    └─$ sunda
    Available commands:
    sunda lumpat <filename.snd> - Execute Sundalang program
@@ -72,7 +72,7 @@ After installation, verify Sundalang functionality by following these steps:
    Verify the Sundalang version using `sunda --version` command:
 
    ```bash
-   ┌──(install@Sundalang)-[~/project/sundalang]
+   ┌──(install@Sundalang)-[~/sundalang]
    └─$ sunda --version
    Sundalang version 0.0.1-dev
    ```
