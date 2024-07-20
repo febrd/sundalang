@@ -21,32 +21,86 @@
    cd sundalang
    ```
 
-#### Installing Sundalang
+Here’s the updated README.md with installation instructions specifying that the scripts should be run from the `sundalang` folder and directing to `INSTALLATIONS/DISTRO/init.sh`:
 
-##### For Linux (bash and zsh)
+---
 
-```bash
-┌──(install@Sundalang)-[~/sundalang/INSTALLATIONS]
-└─$ chmod +x INSTALLATIONS/sundalang_linux_mac.sh
-┌──(install@Sundalang)-[~/sundalang/INSTALLATIONS]
-└─$ ./INSTALLATIONS/sundalang_linux_mac.sh
-```
+# Sundalang Installation Guide
 
-##### For MacOS (bash and zsh)
+## Installing Sundalang
+
+### For Linux (bash and zsh)
+
+1. **Debian-based Distributions**
+
+   ```bash
+   ┌──(install@Sundalang)-[~/sundalang]
+   └─$ chmod +x INSTALLATIONS/DEBIAN/init.sh
+   ┌──(install@Sundalang)-[~/sundalang]
+   └─$ ./INSTALLATIONS/DEBIAN/init.sh
+   ```
+
+2. **Fedora**
+
+   ```bash
+   ┌──(install@Sundalang)-[~/sundalang]
+   └─$ chmod +x INSTALLATIONS/RPM/init.sh
+   ┌──(install@Sundalang)-[~/sundalang]
+   └─$ ./INSTALLATIONS/RPM/init.sh
+   ```
+
+3. **Arch Linux**
+
+   ```bash
+   ┌──(install@Sundalang)-[~/sundalang]
+   └─$ chmod +x INSTALLATIONS/ARCH/init.sh
+   ┌──(install@Sundalang)-[~/sundalang]
+   └─$ ./INSTALLATIONS/ARCH/init.sh
+   ```
+
+4. **Alpine Linux**
+
+   ```bash
+   ┌──(install@Sundalang)-[~/sundalang]
+   └─$ chmod +x INSTALLATIONS/ALPINE/init.sh
+   ┌──(install@Sundalang)-[~/sundalang]
+   └─$ ./INSTALLATIONS/ALPINE/init.sh
+   ```
+
+### For MacOS (bash and zsh)
 
 ```bash
 Last-login: Mon Jul 13 12:40:50 on ttys003
-MacBook-Pro-User:~ user$ cd sundalang
-MacBook-Pro-User:INSTALLATIONS user$ chmod +x INSTALLATIONS/sundalang_linux_mac.sh
-MacBook-Pro-User:INSTALLATIONS user$ ./INSTALLATIONS/sundalang_linux_mac.sh
+MacBook-Pro-User:~ user$ cd path/to/sundalang
+MacBook-Pro-User:~ user$ chmod +x INSTALLATIONS/MACOS/init.sh
+MacBook-Pro-User:~ user$ ./INSTALLATIONS/MACOS/init.sh
 ```
 
-##### For Windows Command Prompt (cmd)
+### For Windows Command Prompt (cmd)
 
 ```cmd
-C:\Users\User> cd path\to\sundalang\INSTALLATIONS
-C:\Users\User\sundalang\INSTALLATIONS> sundalang_windwos.bat
+C:\Users\User> cd path\to\sundalang
+C:\Users\User\sundalang> init.bat
 ```
+
+## Supported Distributions
+
+### Linux
+
+- **Debian-based** (e.g., Debian, Ubuntu, Linux Mint)
+- **Fedora**
+- **Arch Linux**
+- **Alpine Linux**
+
+### MacOS
+
+- All versions of MacOS
+
+### Windows
+
+- Windows 10 and later
+
+---
 
 #### Verifying Installation
 
