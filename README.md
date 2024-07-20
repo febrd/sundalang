@@ -128,19 +128,25 @@ After installing Sundalang, follow these steps to ensure everything is set up co
    Sundalang version 0.0.1
    ```
 
-3. **Inside Sundalang Shell**
+3. **Inside CLI & Sundalang Shell**
 
    To test basic functionality within the Sundalang shell:
 
    - **Execute a Sundalang Program**
 
      Load and execute a Sundalang program file:
-
+   
      ```bash
      ┌──(install@Sundalang)-[~/sundalang]
      └─$ sunda pariksa <path/to/file.snd>
      ```
-
+      ***Inside Sundalang Shell***
+     ```bash                      
+     ┌──(vj007㉿netVJ)-[~/sundalang]
+     └─$ sunda hurungkeun
+      Sundalang shell activated. Type 'atosan' to exit, 'liren' to process buffer content, 'pariksa-file <filename>' to check and execute a file.
+      sunda(1)> pariksa-file <path/to/file.snd>
+     ```
    - **Create a Simple Function**
 
      Create a basic function that performs I/O operations:
