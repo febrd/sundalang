@@ -21,8 +21,6 @@
    cd sundalang
    ```
 
-Here’s the updated README.md with installation instructions specifying that the scripts should be run from the `sundalang` folder and directing to `INSTALLATIONS/DISTRO/init.sh`:
-
 ---
 
 # Sundalang Installation Guide
