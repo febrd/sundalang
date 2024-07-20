@@ -1,18 +1,12 @@
 defmodule Sundalang do
-  @moduledoc """
-  Documentation for `Sundalang`.
-  """
+  alias Sundalang.Lexer
+  alias Sundalang.Parser
+  alias Sundalang.Interpreter
 
-  @doc """
-  Hello world.
-
-  ## Examples
-
-      iex> Sundalang.hello()
-      :world
-
-  """
-  def hello do
-    :world
+  def run(input) do
+    input
+    |> Lexer.tokenize()
+    |> Parser.parse()
+    |> Interpreter.run()
   end
 end

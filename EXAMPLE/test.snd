@@ -1,22 +1,5 @@
-modulna Contoh keun
-  nyieun salam keun
-    deleu "Hello, Sundalang!"
-  geus
-geus
-
-nyieun utama keun
-  lamun 1 == 1 keun
-    deleu "Ini benar"
-  sanesna
-    deleu "Ini salah"
-  geus
-geus
-
-  ngecheck 2 keun
-    1 -> deleu "Satu"
-    2 -> deleu "Dua"
-    _ -> deleu "Lainnya"
-  geus
-geus
-
-utama_keun()
+modulna HelloWorld
+  damel hello
+    deleu "Hello,Barudak!"
+  cekap
+liren

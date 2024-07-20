@@ -1,7 +1,9 @@
-echo "Pastikan Anda sudah menginstal Elixir 1.17 dan Erlang OTP 27.0 terlebih dahulu."
+#!/bin/bash
 
-# Build Sundalang escript
-MIX_ENV=prod mix escript.build
+echo "Make sure you have Elixir 1.17 and Erlang OTP 27.0 installed first."
+
+# Build Sundalang escript, suppressing the output message
+MIX_ENV=prod mix escript.build > /dev/null
 
 echo "Building Sundalang...."
 

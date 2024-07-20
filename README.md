@@ -26,21 +26,19 @@
 ##### For Linux (bash and zsh)
 
 ```bash
-┌──(install@Sundalang)-[~/sundalang]
-└─$ cd INSTALLATIONS
 ┌──(install@Sundalang)-[~/sundalang/INSTALLATIONS]
-└─$ chmod +x sundalang_linux_mac.sh
+└─$ chmod +x INSTALLATIONS/sundalang_linux_mac.sh
 ┌──(install@Sundalang)-[~/sundalang/INSTALLATIONS]
-└─$ ./sundalang_linux_mac.sh
+└─$ ./INSTALLATIONS/sundalang_linux_mac.sh
 ```
 
 ##### For MacOS (bash and zsh)
 
 ```bash
 Last-login: Mon Jul 13 12:40:50 on ttys003
-MacBook-Pro-User:~ user$ cd sundalang/INSTALLATIONS
-MacBook-Pro-User:INSTALLATIONS user$ chmod +x sundalang_linux_mac.sh
-MacBook-Pro-User:INSTALLATIONS user$ ./sundalang_linux_mac.sh
+MacBook-Pro-User:~ user$ cd sundalang
+MacBook-Pro-User:INSTALLATIONS user$ chmod +x INSTALLATIONS/sundalang_linux_mac.sh
+MacBook-Pro-User:INSTALLATIONS user$ ./INSTALLATIONS/sundalang_linux_mac.sh
 ```
 
 ##### For Windows Command Prompt (cmd)
@@ -62,7 +60,7 @@ After installation, verify Sundalang functionality by following these steps:
    ┌──(install@Sundalang)-[~/sundalang]
    └─$ sunda
    Available commands:
-   sunda lumpat <filename.snd> - Execute Sundalang program
+   sunda pariksa <filename.snd> - Execute Sundalang program
    sunda hurungkeun - Activate Sundalang shell
    sunda --version - Display Sundalang version
    ```
@@ -74,5 +72,5 @@ After installation, verify Sundalang functionality by following these steps:
    ```bash
    ┌──(install@Sundalang)-[~/sundalang]
    └─$ sunda --version
-   Sundalang version 0.0.1-dev
+   Sundalang version 0.0.1
    ```

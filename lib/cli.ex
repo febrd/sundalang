@@ -2,13 +2,13 @@ defmodule Sundalang.CLI do
   def main(args) do
     run(args)
   end
+
   def run(args) do
     case args do
-      ["lumpat" | [file | _]] -> execute_sundalang(file)
-      ["hurungkeun"] -> activate_sundalang_shell()
+      ["pariksa" | [file | _]] -> execute_sundalang(file)
+      ["hurungkeun"] -> Sundalang.Shell.activate_sundalang_shell()
       ["--version"] -> display_version()
       _ -> display_available_commands()
-
     end
   end
 
@@ -23,22 +23,6 @@ defmodule Sundalang.CLI do
     end
   end
 
-  defp activate_sundalang_shell do
-    IO.puts "Sundalang shell activated. Type 'geus' to exit."
-    loop()
-  end
-
-  defp loop do
-    case IO.read(:line) |> String.trim() do
-      "geus" -> IO.puts "Exiting Sundalang shell."
-      input ->
-        tokens = Sundalang.Lexer.tokenize(input)
-        Sundalang.Parser.parse(tokens)
-        |> Sundalang.Interpreter.run()
-        loop()
-    end
-  end
-
   defp display_version do
     version = Application.spec(:sundalang, :vsn) || "undefined"
     IO.puts "Sundalang version #{version}"
@@ -47,7 +31,7 @@ defmodule Sundalang.CLI do
   defp display_available_commands do
     IO.puts """
     Available commands:
-    sunda lumpat <filename.snd> - Execute Sundalang program
+    sunda pariksa <filename.snd> - Execute Sundalang program
     sunda hurungkeun - Activate Sundalang shell
     sunda --version - Display Sundalang version
     """

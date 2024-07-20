@@ -1,10 +1,10 @@
-REM Pastikan Anda sudah menginstal Elixir 1.17 dan Erlang OTP 27.0 terlebih dahulu.
+REM Make sure you have Elixir 1.17 and Erlang OTP 27.0 installed first.
 
-REM Build escript
+REM Build escript and suppress the output message
 set MIX_ENV=prod
-mix escript.build
+mix escript.build > nul
 
-REM Salin executable ke direktori yang diinginkan
+REM Copy executable to the desired directory
 copy .\sundalang.exe "C:\Program Files\Sundalang\sunda.exe"
 
 echo Sundalang CLI telah terinstal.
