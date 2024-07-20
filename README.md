@@ -100,29 +100,70 @@ C:\Users\User\sundalang> init.bat
 
 ---
 
-#### Verifying Installation
+Sure! Here’s a neatly formatted version of the terminal outputs for verifying Sundalang installation:
 
-After installation, verify Sundalang functionality by following these steps:
+---
+
+### Verifying Installation
+
+After installing Sundalang, follow these steps to ensure everything is set up correctly:
 
 1. **Check Available Commands**
 
-   Run `sunda` command to display available commands:
+   Run the `sunda` command to display all available commands:
 
    ```bash
    ┌──(install@Sundalang)-[~/sundalang]
    └─$ sunda
    Available commands:
-   sunda pariksa <filename.snd> - Execute Sundalang program
-   sunda hurungkeun - Activate Sundalang shell
-   sunda --version - Display Sundalang version
+   sunda pariksa <filename.snd> - Execute a Sundalang program
+   sunda hurungkeun - Activate the Sundalang shell
+   sunda --version - Display the Sundalang version
    ```
 
 2. **Check Sundalang Version**
 
-   Verify the Sundalang version using `sunda --version` command:
+   Verify the installed version of Sundalang using the `sunda --version` command:
 
    ```bash
    ┌──(install@Sundalang)-[~/sundalang]
    └─$ sunda --version
    Sundalang version 0.0.1
    ```
+
+3. **Inside Sundalang Shell**
+
+   To test basic functionality within the Sundalang shell:
+
+   - **Execute a Sundalang Program**
+
+     Load and execute a Sundalang program file:
+
+     ```bash
+     ┌──(install@Sundalang)-[~/sundalang]
+     └─$ sunda pariksa <path/to/file.snd>
+     ```
+
+   - **Create a Simple Function**
+
+     Create a basic function that performs I/O operations:
+
+     ```sundalang
+     modulna HelloWorld
+       damel hello
+        deleu "Hello,Barudak!"
+       cekap
+     liren
+
+     ```
+
+     Save this script to a file, then run it using:
+
+     ```bash
+     ┌──(install@Sundalang)-[~/sundalang]
+     └─$ sunda pariksa <path/to/your_script.snd>
+     ```
+
+---
+
+Feel free to replace `<filename.snd>` and `<path/to/file.snd>` with the actual file names and paths you are using.
