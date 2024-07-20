@@ -142,7 +142,7 @@ After installing Sundalang, follow these steps to ensure everything is set up co
      ```
       ***Inside Sundalang Shell***
      ```bash                      
-     ┌──(vj007㉿netVJ)-[~/sundalang]
+     ┌──(install㉿sundalang)-[~/sundalang]
      └─$ sunda hurungkeun
       Sundalang shell activated. Type 'atosan' to exit, 'liren' to process buffer content, 'pariksa-file <filename>' to check and execute a file.
       sunda(1)> pariksa-file <path/to/file.snd>
