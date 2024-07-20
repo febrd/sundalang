@@ -100,9 +100,6 @@ C:\Users\User\sundalang> init.bat
 
 ---
 
-Sure! Here’s a neatly formatted version of the terminal outputs for verifying Sundalang installation:
-
----
 
 ### Verifying Installation
 
