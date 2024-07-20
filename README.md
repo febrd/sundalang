@@ -1,8 +1,8 @@
 ### Exploring Sundanese Language Based on Elixir with DSL Concept
 <hr>
-### Sundalang Installation Guide with Validation
 
-#### Initial Steps
+
+## Initial Steps
 
 1. **Clone Sundalang Repository**
    - Open your terminal or command prompt based on your operating system.
