@@ -154,9 +154,9 @@ After installing Sundalang, follow these steps to ensure everything is set up co
      ```sundalang
      modulna HelloWorld
        damel hello
-        deleu "Hello,Barudak!"
-       cekap
-     liren
+        tingal "Hello,Barudak!"
+       liren
+     cekap
 
      ```
 
