@@ -1,5 +1,29 @@
-modulna HelloWorld
-  damel hello
-    deleu "Hello,Barudak!"
-  cekap
-liren
+
+modulna Contoh
+  damel cetak keun
+    tingal "Sampurasun Dunia"
+  liren
+  damel tambah keun
+    tambahkeun 5 3
+    tambahkeun 10 sareng 7
+  liren
+  damel kurang keun
+    kurangkeun 20 10
+    kurangkeun 30 sareng 15
+  liren
+  damel kali keun
+    kalikeun 8 4
+    kalikeun 10 sareng 5
+  liren
+  damel bagi keun
+    bagikeun 20 4
+    bagikeun 25 sareng 5
+  liren
+cekap
+
+
+cetak()
+tambah()
+kurang()
+kali()
+bagi()

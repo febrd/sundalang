@@ -1,5 +1,8 @@
 # The directory Mix will write compiled artifacts to.
 /_build/
+/.elixir_ls/
+/.elixir_tools/
+/.vscode/
 
 # If you run "mix test --cover", coverage assets end up here.
 /cover/
@@ -35,6 +38,7 @@ deps/
 # Ignore environment-specific files
 .tool-versions
 .elixir_ls
+.vscode
 
 # Ignore compiled output
 priv/*/mix.exs
