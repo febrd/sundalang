@@ -190,7 +190,7 @@ The Sundalang extension provides syntax highlighting and other features for the 
 
 ### 2. Install via `.vsix` File
 
-1. Download the `.vsix` file for the Sundalang extension from the [Here](https://github.com/febrd/sundalang/EXTENSION/VSCODE/sundalang-0.0.1.vsix) on GitHub.
+1. Download the `.vsix` file for the Sundalang extension from the [Here](https://github.com/febrd/sundalang/blob/main/EXTENSION/VSCODE/sundalang-0.0.1.vsix) on GitHub.
 2. Open **Visual Studio Code**.
 3. Go to the **Extensions** view by clicking the Extensions icon on the Sidebar or pressing `Ctrl+Shift+X`.
 4. Click on the three-dot menu (•••) in the top-right corner of the Extensions view and select **"Install from VSIX..."**.
