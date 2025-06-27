@@ -1,4 +1,5 @@
-defmodule Sundalang.Shell do
+defmodule Shell.Main do
+
   def activate_sundalang_shell do
     IO.puts "Sundalang shell activated. Type 'atosan' to exit, 'liren' to process buffer content, 'pariksa-file <filename>' to check and execute a file."
     loop(1, "")
@@ -59,17 +60,17 @@ defmodule Sundalang.Shell do
     |> String.split("\n", trim: true)
     |> Enum.reject(&(&1 == ""))
     |> Enum.join("\n")
-    |> Sundalang.Lexer.tokenize()
-    |> Sundalang.Parser.parse()
-    |> Sundalang.Interpreter.run()
+    |> Lexer.Main.tokenize()
+    |> Parser.Main.parse()
+    |> Interpreter.Main.run()
   end
 
   defp check_file(file) do
     case File.read(file) do
       {:ok, code} ->
-        tokens = Sundalang.Lexer.tokenize(code)
-        Sundalang.Parser.parse(tokens)
-        |> Sundalang.Interpreter.run()
+        tokens = Lexer.Main.tokenize(code)
+        Parser.Main.parse(tokens)
+        |> Interpreter.Main.run()
       {:error, _reason} ->
         IO.puts "File #{file} not found or cannot be read."
     end

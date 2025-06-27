@@ -1,4 +1,5 @@
-defmodule Sundalang.Interpreter do
+defmodule Interpreter.Main do
+
   def run(ast) do
     define_modules(ast)
     execute_function_calls(ast)

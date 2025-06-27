@@ -1,28 +1,27 @@
-
-modulna Contoh
-  damel cetak keun
-    tingal "Sampurasun Dunia"
-  liren
+modulna Aritmatika
   damel tambah keun
+   tingal "==== Penjumlahan ===="
     tambahkeun 5 3
     tambahkeun 10 sareng 7
   liren
   damel kurang keun
+    tingal "==== Pengurangan ===="
     kurangkeun 20 10
     kurangkeun 30 sareng 15
   liren
   damel kali keun
+    tingal "==== Perkalian ===="
     kalikeun 8 4
     kalikeun 10 sareng 5
   liren
   damel bagi keun
+    tingal "==== Pembagian ===="
     bagikeun 20 4
     bagikeun 25 sareng 5
   liren
 cekap
 
 
-cetak()
 tambah()
 kurang()
 kali()

@@ -1,4 +1,5 @@
-defmodule Sundalang.Lexer do
+defmodule Lexer.Main do
+
   def tokenize(input) do
     input
     |> String.split(~r/\n+/)
@@ -26,7 +27,7 @@ defmodule Sundalang.Lexer do
       Regex.match?(~r/^[a-zA-Z_]\w*$/, token) ->
         tokenize_tokens(rest, [classify(token) | acc])
 
-      Regex.match?(~r/^\d+$/, token) ->
+      Regex.match?(~r/^-?\d+$/, token) ->
         tokenize_tokens(rest, [{:number, String.to_integer(token)} | acc])
 
       String.contains?(token, "()") ->

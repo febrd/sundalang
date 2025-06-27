@@ -1,0 +1,8 @@
+modulna Matematika
+  damel tambah a b keun
+    tingal "Menjumlahkan a dan b"
+    tambahkeun a sareng b
+  liren
+cekap
+
+Matematika::tambah(5, -3)

@@ -1,4 +1,4 @@
-defmodule Sundalang.CLI do
+defmodule Cli.Main do
   def main(args) do
     run(args)
   end
@@ -6,7 +6,7 @@ defmodule Sundalang.CLI do
   def run(args) do
     case args do
       ["pariksa" | [file | _]] -> execute_sundalang(file)
-      ["hurungkeun"] -> Sundalang.Shell.activate_sundalang_shell()
+      ["hurungkeun"] -> Shell.Main.activate_sundalang_shell()
       ["--version"] -> display_version()
       _ -> display_available_commands()
     end
@@ -15,9 +15,9 @@ defmodule Sundalang.CLI do
   defp execute_sundalang(file) do
     case File.read(file) do
       {:ok, code} ->
-        tokens = Sundalang.Lexer.tokenize(code)
-        Sundalang.Parser.parse(tokens)
-        |> Sundalang.Interpreter.run()
+        tokens = Lexer.Main.tokenize(code)
+        Parser.Main.parse(tokens)
+        |> Interpreter.Main.run()
       {:error, _reason} ->
         IO.puts "File not found or cannot be read."
     end

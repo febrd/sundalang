@@ -1,12 +1,8 @@
 defmodule Sundalang do
-  alias Sundalang.Lexer
-  alias Sundalang.Parser
-  alias Sundalang.Interpreter
-
   def run(input) do
     input
-    |> Lexer.tokenize()
-    |> Parser.parse()
-    |> Interpreter.run()
+    |> Lexer.Main.tokenize()
+    |> Parser.Main.parse()
+    |> Interpreter.Main.run()
   end
 end

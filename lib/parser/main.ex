@@ -1,4 +1,5 @@
-defmodule Sundalang.Parser do
+defmodule Parser.Main do
+
   def parse(tokens) do
     {ast, _} = parse_statements(tokens, [])
     ast

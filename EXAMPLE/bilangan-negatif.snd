@@ -1,0 +1,28 @@
+modulna Matematika
+  damel tambah keun
+    tingal "Menjumlahkan a dan b"
+    tambahkeun -1235 -3423
+    tambahkeun -34345 sareng -3
+  liren
+   damel kurang keun
+    tingal "==== Pengurangan ===="
+    kurangkeun -34320 10
+    kurangkeun -30 sareng 15
+  liren
+  damel kali keun
+    tingal "==== Perkalian ===="
+    kalikeun -8 -4
+    kalikeun 2310 sareng -45
+  liren
+  damel bagi keun
+    tingal "==== Pembagian ===="
+    bagikeun -8020 -874
+    bagikeun -25 sareng 5
+  liren
+cekap
+
+tambah()
+kali()
+bagi()
+kurang()
+bagi()

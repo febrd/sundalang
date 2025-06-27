@@ -1,0 +1,9 @@
+
+modulna Contoh
+  damel cetak keun
+    tingal "Sampurasun Dunia"
+  liren
+cekap
+
+Contoh::cetak()
+
